@@ -1,0 +1,102 @@
+body{
+	background-color: #b3e6ff;
+}
+
+.box-container{
+	width: 350px;
+	height: 350px;
+	border: 1px solid;
+	margin: 10px auto;
+	display: flex;
+	padding: 2px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	background-color: #8080ff;
+	border-radius: 5px;
+}
+
+.box img {
+ width: 100%;
+ height: auto;
+ display: block;
+ margin: auto;
+ text-align: center;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgb(20, 18, 18);
+	cursor: pointer;
+}
+
+.box:hover{
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgb(214, 6, 6);
+	cursor: pointer;
+}
+
+.message{
+	width: 350px;
+	margin: 0 auto;
+	border: 1px solid rgb(20, 18, 18);
+	border-radius: 5px;	
+}
+
+.message h1{
+	text-align: center;
+	vertical-align: middle;
+	margin:0;
+}
+
+.btn{
+	cursor: pointer;
+	border: 1px solid rgb(156, 146, 146);
+	color: rgb(156, 146, 146);
+	padding: 10px 5px;
+	font-weight: bold;
+	border-radius: 3px;
+	text-align: center;
+	width: 45%;
+}
+
+.btnActive{
+	border: 1px solid ;
+	color: rgb(20, 18, 18);
+}
+
+.btnActive:hover{
+	border: 1px solid rgb(214, 6, 6);
+	color:rgb(214, 6, 6);
+}
+
+.moveBtn-container{
+	width: 30%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	width: 350px;
+}
+
+.refresh-button{
+	position: absolute;
+	width: 100px;
+	right: 370px;
+	top: 170px;
+}
+
+.title {
+	text-align: center;
+	font-size: 3em;
+	color: #8080ff;
+}
+
+.title h1{
+	margin: auto;
+	vertical-align: middle;
+}
+
+
